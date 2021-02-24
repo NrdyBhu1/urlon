@@ -1,0 +1,16 @@
+{
+    "name": "bhuvan/urlon",
+    "description": "A simple url shortner",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "NrdyBhu1",
+            "email": "NrdyBhu1@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+    	"ext-sqlite3": "*"
+    }
+}
