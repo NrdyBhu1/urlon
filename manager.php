@@ -3,7 +3,7 @@
 	{
 		function __construct() 
 		{
-	 		$this->open('urlon.db');
+	 		$this->open('theurlondatabase.db');
       		}
 	}
 
@@ -35,7 +35,7 @@
 			die();
 		}
 		$url = getRandomUrl();
-		$newUrl="INSERT INTO URLS (URL, FULLURL) VALUES ('" . $url . "','" . $fullUrl . "');";
+		$newUrl="INSERT INTO URLDEFS (URL, FULLURL) VALUES ('" . $url . "','" . $fullUrl . "');";
 		$ret = $database->exec($newUrl);
 		if(!$ret)
 		{
